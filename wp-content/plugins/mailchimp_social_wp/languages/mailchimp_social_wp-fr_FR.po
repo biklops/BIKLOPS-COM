@@ -1,0 +1,95 @@
+# Copyright (C) 2014 Rafael Ferreira
+msgid ""
+msgstr ""
+"Project-Id-Version: MailChimp Social WordPress v1.02\n"
+"Report-Msgid-Bugs-To: http://mailchimpwp.rafaelferreira.pt\n"
+"POT-Creation-Date: 2014-03-18 17:09:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-10-12 17:02-0000\n"
+"Last-Translator: Rafael Ferreira <mail@rafaelferreira.pt>\n"
+"Language-Team: Rafael Ferreira <mail@rafaelferreira.pt>\n"
+"Language: pt_PT\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: mailchimp_social_wp.php:107
+msgid "Subscribe with Facebook"
+msgstr "Abonnez-vous avec Facebook"
+
+#: mailchimp_social_wp.php:108
+msgid "Subscribe with Google+"
+msgstr "Abonnez-vous avec Google+"
+
+#: mailchimp_social_wp.php:109
+msgid "Subscribe with Outlook"
+msgstr "Abonnez-vous avec Outlook"
+
+#: mailchimp_social_wp.php:109
+msgid "Subscribe with LinkedIn"
+msgstr "Abonnez-vous avec LinkedIn"
+
+#: mailchimp_social_wp.php:110
+msgid "Email Address"
+msgstr "Email"
+
+#: mailchimp_social_wp.php:111
+msgid "Subscribe!"
+msgstr "S'abonner!"
+
+#: mailchimp_social_wp.php:112
+msgid "At subscribe you agree that I collect your email to MailChimp."
+msgstr ""
+"Au abonnez-vous d'accord que je collectionne votre email pour MailChimp."
+
+#: mailchimp_social_wp.php:113
+msgid "Subscribe our news!"
+msgstr "Abonnez-vous à notre nouvelles!"
+
+#: mailchimp_social_wp.php:131
+msgid "Subscribe our newsletter!"
+msgstr "Abonnez-vous à notre newsletter!"
+
+#: mailchimp_social_wp.php:132
+msgid "It's free!"
+msgstr "C'est gratuit!"
+
+#: mailchimp_social_wp.php:133
+msgid "Your email is wrong!"
+msgstr "Votre e-mail est incorrecte!"
+
+#: mailchimp_social_wp.php:134
+msgid "Something went wrong! Sorry!"
+msgstr "Quelque chose s'est mal passé! Désolé!"
+
+#: mailchimp_social_wp.php:135
+msgid "You have already subscribe our newsletter!"
+msgstr "Vous avez déjà vous abonner à notre newsletter!"
+
+#: mailchimp_social_wp.php:136
+msgid "Thank you!"
+msgstr "Merci!"
+
+#: mailchimp_social_wp.php:137
+msgid "Thank you for subscribe our newsletter!"
+msgstr "Nous vous remercions de vous inscrire à notre lettre d'information!"
+
+#: mailchimp_social_wp.php
+msgid "We need to know your First and Last name! :)"
+msgstr "Nous avons besoin de connaître votre prénom et nom! :)"
+
+#: mailchimp_social_wp.php
+msgid "First Name"
+msgstr "Prénom"
+
+#: mailchimp_social_wp.php
+msgid "Last Name"
+msgstr "Nom de famille"
+
+#: mailchimp_social_wp.php
+msgid "Email"
+msgstr "Email"
+
+#: mailchimp_social_wp.php
+msgid "Subscribe to the mailing list!"
+msgstr "Abonnez-vous à la mailing-list!"

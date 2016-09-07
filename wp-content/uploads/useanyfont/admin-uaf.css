@@ -1,0 +1,19 @@
+			@font-face {
+				font-family: 'Grouch';
+				font-style: normal;
+				src: url('//biklops.com/wp-content/uploads/useanyfont/141120111854grouch_bt-webfont.eot');
+				src: local('Grouch'), url('//biklops.com/wp-content/uploads/useanyfont/141120111854grouch_bt-webfont.eot') format('embedded-opentype'), url('//biklops.com/wp-content/uploads/useanyfont/141120111854grouch_bt-webfont.woff') format('woff');
+			}
+					@font-face {
+				font-family: 'League Spartan';
+				font-style: normal;
+				src: url('//biklops.com/wp-content/uploads/useanyfont/150505093632League-Spartan.eot');
+				src: local('League Spartan'), url('//biklops.com/wp-content/uploads/useanyfont/150505093632League-Spartan.eot') format('embedded-opentype'), url('//biklops.com/wp-content/uploads/useanyfont/150505093632League-Spartan.woff') format('woff');
+			}
+					@font-face {
+				font-family: 'League Gothic';
+				font-style: normal;
+				src: url('//biklops.com/wp-content/uploads/useanyfont/150519122744League-Gothic.eot');
+				src: local('League Gothic'), url('//biklops.com/wp-content/uploads/useanyfont/150519122744League-Gothic.eot') format('embedded-opentype'), url('//biklops.com/wp-content/uploads/useanyfont/150519122744League-Gothic.woff') format('woff');
+			}
+		
