@@ -1,0 +1,195 @@
+/* THE SLIDEOUT BUTTON
+**************************************************/
+/* show hand icon if text trigger */
+.canvas-text-trigger {
+	cursor:pointer;
+}
+
+/* the button */
+.bonfire-slideout-button,
+.bonfire-slideout-button-top-left,
+.bonfire-slideout-button-top-right,
+.bonfire-slideout-button-bottom-left {
+	font-size:28px;
+	color:#C8C8C8;
+	text-decoration:none !important;
+	
+	position:fixed;
+	z-index:99999998;
+	
+	-webkit-transition: all .35s ease;
+	-moz-transition: all .35s ease;
+	-o-transition: all .35s ease;
+	-ms-transition: all .35s ease;
+	transition: all .35s ease;
+}
+.bonfire-slideout-button {
+	padding:15px 15px 15px 15px;
+	right:0;
+	bottom:0;
+}
+.bonfire-slideout-button-top-left {
+	padding:12px 15px 15px 12px;
+	top:0;
+	left:0;
+}
+.bonfire-slideout-button-top-right {
+	padding:15px 15px 15px 15px;
+	top:0;
+	right:0;
+}
+.bonfire-slideout-button-bottom-left {
+	padding:15px 15px 12px 12px;
+	bottom:0;
+	left:0;
+}
+.bonfire-slideout-button:hover,
+.bonfire-slideout-button-top-left:hover,
+.bonfire-slideout-button-top-right:hover,
+.bonfire-slideout-button-bottom-left:hover {
+	color:#666;
+}
+/* the button background (triangle) */
+.bonfire-slideout-button-triangle-background,
+.bonfire-slideout-button-triangle-background-top-left,
+.bonfire-slideout-button-triangle-background-top-right,
+.bonfire-slideout-button-triangle-background-bottom-left {
+	opacity:0.98;
+	width:0;
+	height:0;
+	position:fixed;
+	z-index:99999997;
+	pointer-events:none;
+}
+.bonfire-slideout-button-triangle-background {
+	border-bottom:100px solid #fff;
+	border-left:100px solid transparent;
+	right:0;
+	bottom:0;
+}
+.bonfire-slideout-button-triangle-background-top-left {
+	border-top:100px solid #fff;
+	border-right:100px solid transparent;
+	top:0;
+	left:0;
+}
+.bonfire-slideout-button-triangle-background-top-right {
+	border-top:100px solid #fff;
+	border-left:100px solid transparent;
+	top:0;
+	right:0;
+}
+.bonfire-slideout-button-triangle-background-bottom-left {
+	border-bottom:100px solid #fff;
+	border-right:100px solid transparent;
+	bottom:0;
+	left:0;
+}
+
+
+/* THE CLOSE BUTTON
+**************************************************/
+.bonfire-slideout-close {
+	opacity:.3;
+	position:relative;
+	top:0;
+	right:0;
+	cursor:pointer;
+	margin:40px 0 0 auto;
+	padding:0;
+	width:36px;
+	height:36px;
+	
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	transition: all .25s ease;
+	
+	background:url(images/close.png) no-repeat center center;
+}
+/* Retina display .bonfire-slideout-close */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 240dpi)
+{
+.bonfire-slideout-close { background-size:36px 36px !important; background:url(images/close@2x.png) no-repeat center center; }
+}
+.bonfire-slideout-close:hover {
+	opacity:.5;
+}
+
+
+/* WIDGETS
+**************************************************/
+.canvas-widgets-wrapper {
+	max-width:100%;
+	margin:0 auto 0 0;
+	text-align:left;
+}
+.canvas-widgets-wrapper-inner {
+	margin:0 auto 0 0;
+	text-align:left;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.canvas-widgets-1-column .widget, .canvas-widgets-2-columns .widget, .canvas-widgets-3-columns .widget {
+	margin-bottom:20px;
+	padding-left:0;
+	background:none;
+	text-align:left;
+}
+.canvas-widgets-1-column .widget {
+	width:100%;
+	display:inline-block;
+}
+.canvas-widgets-2-columns .widget {
+	width:48%;
+	display:inline-block;
+	vertical-align:top;
+}
+.canvas-widgets-3-columns .widget {
+	width:31.5%;
+	display:inline-block;
+	vertical-align:top;
+}
+/* clear after widgets columns */
+.clear {
+	clear:both;
+}
+
+
+/* MAX-WIDTH 900px
+**************************************************/
+@media screen and (max-width: 900px) {
+
+.bonfire-slideout-close {
+	position:relative;
+	margin:40px auto 40px auto;
+}
+.bonfire-slideout-content, .bonfire-slideout-content p {
+	margin:0 auto;
+	font-size:18px;
+	line-height:25px;
+}
+/* widgets */
+.canvas-widgets-3-columns .widget {
+	width:48%;
+}
+}
+/**************************************************/
+
+
+/* MAX-WIDTH 650px
+**************************************************/
+@media screen and (max-width: 650px) {
+/* widgets */
+.canvas-widgets-2-columns .widget, .canvas-widgets-3-columns .widget {
+	width:100%;
+}
+}
+/**************************************************/
