@@ -56,6 +56,13 @@ add_theme_support('avia_mega_menu');
 
 
 
+/*
+ * add support for improved backend styling
+ */
+ 
+add_theme_support('avia_improved_backend_style');
+
+
 
 /*
  * deactivates the default mega menu and allows us to pass individual menu walkers when calling a menu
@@ -91,6 +98,26 @@ if(!function_exists('avia_lang_setup'))
 	
 	avia_lang_setup();
 }
+
+
+/*
+function that changes the icon of the  theme update tab
+*/
+
+if(!function_exists('avia_theme_update_filter'))
+{
+	function avia_theme_update_filter( $data )
+	{
+		if(current_theme_supports('avia_improved_backend_style'))
+		{
+			$data['icon'] = 'new/arrow-repeat-two-7@3x.png';
+		}
+		return $data;
+	}
+	
+	add_filter('avf_update_theme_tab', 'avia_theme_update_filter', 30, 1);
+}
+
 
 
 
