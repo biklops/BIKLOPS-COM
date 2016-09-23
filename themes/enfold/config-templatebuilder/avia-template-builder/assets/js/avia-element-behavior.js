@@ -47,15 +47,19 @@
     	
     	 //tooltips for the help icon
     	new $.AviaTooltip({'class': 'avia-help-tooltip', data: 'avia-help-tooltip', event:'click', position:'bottom', attach:'body'});
+    	
 	});
 	
 	
 	$.AviaElementBehavior.gmaps_fetcher =  function()
 	{	
-		var map_api 	= 'https://maps.googleapis.com/maps/api/js?v=3.24&callback=av_builder_maps_loaded', 
-			loading 	= false,
-			clicked		= {};
-	
+		var map_api 		= 'https://maps.googleapis.com/maps/api/js?v=3.24&callback=av_builder_maps_loaded', 
+			loading 		= false,
+			clicked			= {},
+			timeout_check 	= false,
+			timout_timer	= 1500;
+			
+		
 		$("body").on('click', '.avia-js-google-coordinates', function()
 		{
 			clicked = this;
@@ -74,14 +78,16 @@
 				}
 				
       			document.body.appendChild(script);
+      			
 			}
 			else if(typeof window.google != 'undefined' && typeof window.google.maps != 'undefined')
 			{
 				window.av_builder_maps_loaded();
 			}
-			
+
 			return false;
 		});
+		
 		
 		
 		window.av_builder_maps_loaded = function(data)
@@ -104,10 +110,14 @@
 			
 			var geocoder 	= new google.maps.Geocoder(),
 				addressGeo	= data.address,
-				coordinates = {};
+				coordinates = {},
+				executed	= false;
+			
 			
 			geocoder.geocode( { 'address': addressGeo}, function(results, status)
             {
+	            executed = true;
+	            
                 if (status == google.maps.GeocoderStatus.OK)
                 {
                     coordinates.latitude = results[0].geometry.location.lat();
@@ -120,28 +130,40 @@
                 {
                     if (!addressGeo.replace(/\s/g, '').length)
                     {
-                        coordinates.errormessage = avia_gmaps_L10n.insertaddress;
+	                    new $.AviaModalNotification({mode:'error', msg:avia_modal_L10n.insertaddress});
                     }
                     else
                     {
-                        coordinates.errormessage = avia_gmaps_L10n.notfound;
+                         new $.AviaModalNotification({mode:'error', msg:avia_modal_L10n.notfound});
                     }
                 }
                 else if (status == google.maps.GeocoderStatus.OVER_QUERY_LIMIT)
                 {
-                    coordinates.errormessage = avia_gmaps_L10n.toomanyrequests;
+	                new $.AviaModalNotification({mode:'error', msg:avia_modal_L10n.toomanyrequests});
                 }
                 else if (status == google.maps.GeocoderStatus.REQUEST_DENIED) 
                 {
 	                new $.AviaModalNotification({mode:'error', msg:avia_modal_L10n.gmap_api_text});
                 }
 				
-                if(typeof coordinates.errormessage != 'undefined' && coordinates.errormessage != '') alert(coordinates.errormessage);
                 data.coordinatcontainer.addClass('av-visible');
+                    
             });
             
             
-            
+            //check if the google geocoder has requested the data
+            if(timeout_check === false)
+            {
+	            timeout_check = setTimeout(function(){
+		            
+		            if(executed === false)
+		            {
+			           new $.AviaModalNotification({mode:'error', msg:avia_modal_L10n.gmap_api_wrong}); 
+			           timeout_check = false;
+			           timout_timer = 0; //consecutive requests should be show instantly
+		            }
+	            }, timout_timer);
+            }
 		}
 	}
 	

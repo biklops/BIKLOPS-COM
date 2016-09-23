@@ -64,10 +64,6 @@
     });
 
 
-	$(window).load(function(){
-	//initialize after images are loaded
-	});
-
 
 
 
@@ -1818,6 +1814,9 @@ $.fn.avia_masonry = function(options)
     		
     		if(this.$slider.data('slide_height')) this.options.height = this.$slider.data('slide_height');
     		
+    		//if background attachment is set to fixed or scroll disable the parallax effect
+    		this.options.parallax_enabled = this.$slider.data('image_attachment') == "" ? true : false;
+    		
     		//elements that get subtracted from the image height
     		this.$subtract = $(this.options.subtract);
     		
@@ -1831,8 +1830,10 @@ $.fn.avia_masonry = function(options)
     		//parallax scroll if element if leaving viewport
 			setTimeout(function()
 			{
-				if(!_self.isMobile) //disable parallax scrolling on mobile
-    			_self.$win.on( 'scroll', $.proxy( _self._on_scroll, _self) );
+				if(!_self.isMobile && _self.options.parallax_enabled) //disable parallax scrolling on mobile
+    			{
+	    			_self.$win.on( 'scroll', $.proxy( _self._on_scroll, _self) );
+    			}
     			
     		},100);
 			/**/
@@ -3454,7 +3455,7 @@ $.fn.aviaccordion = function( options )
 	    	var _self 		= this, 
 	    		modifier 	= 30 * _self.options.animation, 
 	    		fade_out 	= {opacity:0}, 
-	    		fade_start  = {display:'inline', opacity:0},
+	    		fade_start  = {display:'inline-block', opacity:0},
 	    		fade_in		= {opacity:1};
 	    		
     		this.$next = _self.$slides.eq(this.open);

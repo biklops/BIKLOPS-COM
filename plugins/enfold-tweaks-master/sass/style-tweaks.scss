@@ -1,0 +1,87 @@
+// Page titles are tiny, make them a bit bigger
+.title_container .main-title {
+	font-size:28px;
+}
+
+// Secondary menu in top bar with submenus need to get out of the way!
+#top .sub_menu li ul {
+	top: 100%;
+	left: 0;
+}
+
+// Shrink the huge fonts on smaller screens
+@media only screen and (max-width: 1024px) {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-transform: none!important;
+		line-height: normal!important;
+		margin: 0 0 8px 0!important;
+	}
+
+	h1 {
+		font-size: 24px!important;
+	}
+	h2 {
+		font-size: 20px!important;
+	}
+	h3 {
+		font-size: 16px!important;
+	}
+	h4,
+	h5,
+	h6 {
+		font-size: 14px!important;
+	}
+
+	.content {
+		padding: 30px 0!important;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.mobile-hide {
+	  display: none!important;
+	}
+
+	#footer .widget {
+	  margin: 0;
+	}
+
+	h1 {
+		font-size: 20px!important;
+	}
+	h2 {
+		font-size: 18px!important;
+	}
+	h3 {
+		font-size: 16px!important;
+	}
+	h4,
+	h5,
+	h6 {
+		font-size: 14px!important;
+	}
+
+	.content {
+		padding: 20px 0!important;
+	}
+
+}
+
+#mobile-advanced {
+	width: 50%;
+	right: -50%;
+	transition: all .2s ease;
+}
+
+#mobile-advanced li>a:before,
+.html_header_mobile_behavior #mobile-advanced span>a:before {
+	content: "";
+}
