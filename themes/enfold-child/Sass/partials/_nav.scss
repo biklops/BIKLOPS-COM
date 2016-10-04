@@ -1,0 +1,63 @@
+/* 
+Navigation
+================================================== */
+
+.title_container {
+    padding: 12px 0px;
+}
+
+.sf-label-none .sf-navicon:after,
+.sf-label-none .sf-navicon:before {
+    height: 5px;
+    width: 25px;
+}
+
+#sf-sidebar .sf-navicon-button {
+    top: 3% !important;
+}
+
+#header {
+    background: none repeat scroll 0 0 #feea77;
+    visibility: hidden;
+}
+
+#top .av_header_transparency .avia-menu-fx {
+    visibility: hidden;
+}
+
+.responsive #top #wrap_all #header {
+    display: none;
+}
+
+.av-main-nav li:hover .avia-menu-fx,
+.current-menu-item > a > .avia-menu-fx,
+.av-main-nav li:hover .current_page_item > a > .avia-menu-fx {
+    opacity: 1;
+    visibility: hidden;
+}
+
+.taptap-logo-image img {
+    margin: 20px 10px;
+    max-height: 70px;
+    width: auto;
+}
+
+.taptap-menu-button-three::after,
+.taptap-menu-button-three::before,
+.taptap-menu-button-three div.taptap-menu-button-three-middle::before {
+    background-color: #747a7d;
+    border-radius: 7px;
+    content: "";
+    display: block;
+    height: 5px;
+    margin: 4px 28px 4px 0;
+    -webkit-transition: all 0.25s ease 0s;
+    transition: all 0.25s ease 0s;
+    width: 30px;
+}
+
+.taptap-right {
+    left: auto;
+    right: 16px;
+    top: 15px;
+}

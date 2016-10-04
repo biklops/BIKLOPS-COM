@@ -1,0 +1,26 @@
+/* 
+JOIN US (smiley)
+================================================== */
+
+.page-id-10697 .taptap-logo-wrapper {
+    display: none;
+}
+
+#smiley h1 {
+    letter-spacing: -0.5rem;
+}
+
+.page-id-10697 .main_color *::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.66);
+    font-weight: bold;
+}
+
+#smiley h1 {
+    letter-spacing: -0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    #smiley h1:first-of-type {
+        font-size: 29vw !important;
+    }
+}

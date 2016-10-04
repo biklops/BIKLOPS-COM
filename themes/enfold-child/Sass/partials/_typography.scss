@@ -1,0 +1,156 @@
+/* TYPOGRAPHY */
+
+strong,
+b {
+    color: inherit;
+    font-weight: bold;
+}
+
+hr {
+    border: solid #000;
+    border-width: 2px 0 0;
+    clear: both;
+    margin: auto;
+    margin-bottom: 45px;
+    height: 0;
+}
+
+.template-page .entry-content-wrapper h1,
+.template-page .entry-content-wrapper h2 {
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /*    color: $dark-grey !important;*/
+    font-family: "League Spartan" !important;
+}
+
+.home p {
+    font-size: 1.8rem;
+}
+
+p {
+    color: #373737;
+    font-family: futura-pt;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 0.9em 0;
+    /*    text-align: left;*/
+}
+
+.av-subheading_below {
+    margin-top: 1rem !important;
+}
+
+.av-subheading_below p {
+    color: #373737 !important;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.av-inherit-size .av-special-heading-tag {
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#makeitrad .avia-builder-el-6 h2,
+#makeitrad h2.av-special-heading-tag,
+#makeitrad h2 {
+    background: url(img/makeitrad.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: none;
+    height: 408px;
+    margin: 0 auto .6em !important;
+    text-align: center;
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.page-id-10216 #makeitrad h2 {
+    background: url(img/makeitrad.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: none;
+    height: 408px;
+    margin: 0 auto .6em !important;
+    text-align: center;
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#makeitrad .av-subheading.av-subheading_below {
+    text-indent: 0px;
+}
+
+.template-page .entry-content-wrapper h1,
+.template-page .entry-content-wrapper h2 {
+    letter-spacing: 0;
+}
+
+#top h1 a,
+#top h2 a,
+#top h3 a,
+#top h4 a,
+#top h5 a,
+#top h6 a,
+a {
+    color: $red;
+    font-weight: inherit;
+    text-decoration: underline;
+    opacity: .85;
+}
+
+#top h1 a:hover,
+#top h2 a:hover,
+#top h3 a:hover,
+#top h4 a:hover,
+#top h5 a:hover,
+#top h6 a:hover,
+a:hover {
+    opacity: 1.0;
+}
+
+#about-info h2 a {
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.av-masonry-sort a {
+    color: $dark-grey !important;
+    font-family: "League Spartan";
+    font-size: 0.8rem;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.av-masonry-sort a:active,
+.av-masonry-sort a:hover,
+a.activefilter,
+a.active_sort {
+    color: #ef4150 !important;
+}

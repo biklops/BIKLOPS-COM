@@ -1,0 +1,50 @@
+/*
+Annoying fixes
+================================================== */
+
+.avia-video iframe,
+.js_active .avia-iframe-wrap iframe,
+div .avia-video .avia-iframe-wrap {
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100.1%;
+}
+
+.container_wrap {
+    border-top-style: solid;
+    /*    border-top-width: 0;*/
+    clear: both;
+    position: relative;
+}
+
+
+/* full-width images */
+
+#bigimage .container {
+    margin: 0;
+    max-width: 100% !important;
+    padding: 0;
+    width: 100% !important;
+}
+
+#bigimage .container main {
+    padding-top: 0px;
+}
+
+#bigimage img {
+    height: auto;
+    max-width: 100% !important;
+}
+
+
+/* full-width headline */
+
+#slabheadline .container {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 4%;
+    width: 100%;
+}

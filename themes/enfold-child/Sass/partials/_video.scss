@@ -1,0 +1,33 @@
+/* VIMEO CONTROLS */
+
+.player .controls .play {
+    visibility: hidden !important;
+}
+
+#makeitrad .av-special-heading {
+    z-index: -998;
+}
+
+.home #av_section_1 {
+    padding: 0px 0px;
+    position: relative;
+}
+
+.home #av_section_2 .av-special-heading {
+    margin-bottom: 5rem;
+}
+
+.home #av_section_1 img {
+    -ms-transform: translate(-150px, -20px);
+    /* IE 9 */
+    -webkit-transform: translate(-150px, -20px);
+    /* Chrome, Safari, Opera */
+    transform: translate(-150px, -20px);
+    top: 0px;
+    left: 0px;
+}
+
+#contactus-home h3 {
+    font-size: 3rem;
+    line-height: 5rem;
+}

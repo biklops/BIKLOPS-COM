@@ -1,0 +1,89 @@
+/* POP-UP CONVERSION PAGE WITH CANVAS */
+
+.bonfire-slideout-content,
+.bonfire-slideout-content p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 740px;
+}
+
+.bonfire-slideout-close {
+    cursor: pointer;
+    height: 36px;
+    margin: 40px 0 0 auto;
+    opacity: 0.82;
+    padding: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.25s ease 0s;
+    transition: all 0.25s ease 0s;
+    width: 36px;
+}
+
+textarea#comment {
+    border: 1px solid #bababa !important;
+}
+
+#top #respond input {
+    border: 3px solid #252525 !important;
+}
+
+#fe_title {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 0 none;
+    color: white;
+    display: block;
+    font-family: league spartan;
+}
+
+.nform #form_ul .cap1 {
+    color: white;
+    display: block;
+    font-family: futura-pt;
+    font-weight: bold;
+    line-height: 1.1;
+    min-height: 19px;
+    text-transform: uppercase;
+    font-size: 1.5rem !important;
+}
+
+#fe_submit {
+    display: none;
+}
+
+.nform #form_ul .nform_btn.boots {
+    background: none repeat scroll 0 0 transparent !important;
+    -webkit-transition: background ease .3s;
+    transition: background ease .3s;
+    border: 2px solid white;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    font-family: league spartan;
+    font-size: 1.5rem !important;
+    margin-bottom: 0;
+    max-width: 80%;
+    padding: 1.5rem 0 2.8rem;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    width: 40% !important;
+}
+
+.nform #form_ul .cap2 {
+    color: black;
+    display: block;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2rem;
+    opacity: 0.68;
+}
+
+.nform #form_ul .submit_button:hover,
+.nform #form_ul .submit_button:focus {
+    background-color: rgba(10, 10, 10, 0.72);
+}

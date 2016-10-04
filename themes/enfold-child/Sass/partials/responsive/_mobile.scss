@@ -1,0 +1,126 @@
+/*
+Mobile Styles
+================================================== */
+
+
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+    /* Add your Mobile Styles here */
+    .nc_socialPanel {
+        clear: both;
+        display: block;
+        height: 54px;
+        line-height: 1;
+        margin-bottom: -1rem !important;
+        margin-top: -1rem !important;
+        max-height: 55px;
+        overflow: hidden;
+        padding: 20px 0;
+        width: 100% !important;
+    }
+    #hidemobile {
+        display: none;
+    }
+    .blackbox {
+        background-color: black;
+    }
+    .home #av_section_1 img {
+        -ms-transform: translate(-90px, -20px);
+        /* IE 9 */
+        -webkit-transform: translate(-90px, -20px);
+        /* Chrome, Safari, Opera */
+        transform: translate(-90px, -20px);
+        top: 0px;
+        left: 0px;
+    }
+    .home #av_section_1 {
+        padding-top: 10vh;
+        position: relative;
+    }
+    .home p {
+        font-size: 1.5rem;
+    }
+    .title_container .breadcrumb {
+        display: none;
+    }
+    #videosectionsmobile {
+        height: 360px;
+    }
+    #paintdrip {
+        background-position: 20% top !important;
+        background-repeat: repeat;
+        background-size: 500% auto !important;
+        height: 480px;
+        position: relative;
+        z-index: 10;
+    }
+    #contactus-home h3 {
+        font-size: 8vw;
+        line-height: 4.5vh;
+    }
+    #makeitrad .avia-builder-el-6 h2,
+    #makeitrad h2.av-special-heading-tag,
+    #makeitrad h2 {
+        background: url("img/makeitrad.png") no-repeat scroll center center / contain rgba(0, 0, 0, 0);
+        float: none;
+        height: 300px;
+        margin: 0 auto 0 !important;
+        text-align: center;
+        text-indent: -99999px;
+    }
+    /*    Portfolio Page   */
+    .page-id-390 h1 {
+        margin-top: 10rem;
+        text-align: center;
+    }
+    .page-id-390 .content,
+    .sidebar {
+        padding-bottom: 0;
+    }
+    .av-masonry-entry,
+    .av-masonry-entry * {
+        background-color: transparent !important;
+    }
+    .responsive #top .av-masonry-entry {
+        background: none repeat scroll 0 0 transparent !important;
+    }
+    #footer {
+        color: $dark-grey !important;
+        font-size: 9vw;
+        text-align: center;
+    }
+    #footer .widget {
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+    div#footer .container h6 {
+        color: black !important;
+        margin-bottom: .5rem;
+    }
+    .socialmedia-buttons img {
+        float: none;
+    }
+    #top .input-text,
+    #top input[type="text"],
+    #top input[type="input"],
+    #top input[type="password"],
+    #top input[type="email"],
+    #top input[type="number"],
+    #top input[type="url"],
+    #top input[type="tel"],
+    #top input[type="search"],
+    #top textarea,
+    #top select {
+        padding: 18px 6px;
+    }
+    .mc4wp-form button,
+    .mc4wp-form input[type="button"],
+    .mc4wp-form input[type="submit"] {
+        padding: 18px 0;
+    }
+    body.page-id-10216 #statue-masthead img {
+        margin-left: -0%;
+    }
+}

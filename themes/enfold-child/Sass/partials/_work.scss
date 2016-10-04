@@ -1,0 +1,92 @@
+/*  //  WORK  //  */
+
+.mejs-offscreen {
+    display: none;
+}
+
+.page-id-390 h1 {
+    margin-top: 5rem;
+}
+
+#our-work-grid {
+    background-color: #feea77;
+}
+
+.page-id-390 .content,
+.sidebar {
+    padding-top: 10px;
+}
+
+ul li {
+    color: $dark-grey;
+    list-style: none;
+    margin-left: 0px !important;
+}
+
+.page-id-390 .av-large-gap .av-masonry-sort {
+    margin: 0 15px 30px 0;
+}
+
+.avia_desktop.avia_transform3d .av-masonry-entry {
+    background: none repeat scroll 0 0 transparent !important;
+    -webkit-perspective: 600px;
+    perspective: 600px;
+}
+
+.av-fixed-size .av-masonry-entry .av-inner-masonry-sizer {
+    background: none repeat scroll 0 0 transparent;
+    padding-bottom: 90% !important;
+    width: 100%;
+    z-index: 1;
+}
+
+.av-masonry-entry .av-masonry-entry-title {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*    text-shadow: 1px 1px 1px #373737;*/
+}
+
+.av-masonry-entry .av-masonry-entry-title:hover {
+    color: $dark-grey;
+}
+
+
+
+.av-fixed-size .av-masonry-entry .av-inner-masonry-content,
+.av-caption-on-hover .av-masonry-item-with-image.av-masonry-entry .av-inner-masonry-content {
+    background-color: black;
+    border: 0 solid white;
+    color: white;
+    opacity: 0.75 !important;
+    padding: 16% 6%;
+    /*    top: 50%;*/
+    transform: translateY(-50%);
+    width: 50%;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.av-masonry-entry-content {
+    font-family: futura;
+    font-size: 0.75rem;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.av-masonry-entry .avia-arrow {
+    border: medium none;
+    display: none;
+    top: -5px;
+}
+
+#top.page-id-390 .entry-content-wrapper {
+    background: transparent;
+}

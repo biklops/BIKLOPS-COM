@@ -1,0 +1,151 @@
+/* 
+FORMS AND BUTTONS
+================================================== */
+
+#ctapage1 .container {
+    padding-top: 0 !important;
+}
+
+#top label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.page-id-9039 {
+    background-image: url("http://biklops.com/wp-content/uploads/yellowbg.gif");
+}
+
+.bti-lm-7 .ninja-forms-all-fields-wrap {
+    background: transparent none repeat scroll 0 0;
+}
+
+#ninja_forms_form_7 {
+    display: block;
+    float: none;
+    height: auto;
+    margin: 4rem auto 0;
+    max-width: 900px;
+    overflow: visible;
+}
+
+#ninja_forms_form_7 .field-wrap {
+    float: left;
+    margin: 0 2% 2% 0;
+    width: 48%;
+}
+
+#ninja_forms_field_11_div_wrap {
+    width: 98% !important;
+    margin-top: 2rem !important;
+}
+
+#top .input-text,
+#top input[type="text"],
+#top input[type="input"],
+#top input[type="password"],
+#top input[type="email"],
+#top input[type="number"],
+#top input[type="url"],
+#top input[type="tel"],
+#top input[type="search"],
+#top textarea,
+#top select {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 3px solid #fff !important;
+    border-radius: 0 !important;
+    font-family: futura-pt;
+    font-size: 19px !important;
+    outline: medium none;
+    width: 100% !important;
+}
+
+#normalform input.ninja-forms-field {
+    border: 3px solid #777777 !important;
+}
+
+#normalform textarea {
+    border: 3px solid #777777 !important;
+}
+
+#normalform #input[type="submit"]:hover,
+#submit:hover {
+    background: $dark-grey !important;
+    border: 3px solid $dark-grey !important;
+    color: white !important;
+    letter-spacing: 2px;
+}
+
+input[type="submit"],
+#submit,
+.button {
+    background: transparent none repeat scroll 0 0 !important;
+    border: 3px solid $dark-grey !important;
+    color: $dark-grey !important;
+    font-family: league spartan !important;
+    letter-spacing: 1px;
+    padding-top: 1.25rem !important;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+
+input[type="submit"]:hover,
+#submit:hover {
+    background: $dark-grey !important;
+    border: 3px solid $dark-grey !important;
+    color: white !important;
+    letter-spacing: 2px;
+}
+
+input.ninja-forms-field[type="submit"]:hover {
+    background: $dark-grey !important;
+    color: white !important;
+}
+
+div[class*="bti-lm-col-"],
+div[class*="bti-lm-col2-"] {
+    padding-right: 10px;
+}
+
+.avia-button.avia-size-x-large {
+    font-size: 1.5rem;
+    min-width: 100%;
+    padding: 1rem;
+}
+
+body div .avia-button {
+    background-color: transparent !important;
+    border: 3px solid $dark-grey;
+    border-radius: 0px;
+}
+
+#top .avia-button-fullwidth:hover {
+    opacity: 0.05 !important;
+}
+
+#top .avia-button-fullwidth {
+    -webkit-transition: opacity .4s ease;
+    transition: opacity .4s ease;
+}
+
+.avia-button-fullwidth .avia_button_background {
+    display: none !important;
+}
+
+#top .avia-button-fullwidth .avia_button_background {
+    display: none !important;
+}
+
+p#mc4wp-checkbox {
+    float: left;
+}
+
+p#mc4wp-checkbox label {
+    float: left;
+    left: 0;
+}
+
+#commentform textarea#comment {
+    border: 3px solid #1a1a1a !important;
+    margin-top: 2rem;
+}

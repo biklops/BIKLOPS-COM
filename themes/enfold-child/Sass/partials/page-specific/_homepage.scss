@@ -1,0 +1,99 @@
+/*  // HOME //  */
+
+#paintdrip {
+    z-index: 10;
+    position: relative;
+    height: 580px;
+    background-size: 180% !important;
+    background: transparent;
+    pointer-events: none;
+}
+
+#biklopsis {
+    margin-bottom: 2em;
+}
+
+#makeitrad {
+    margin-top: -190px;
+    z-index: 0;
+    /*    transform: translate(0px, -600px);*/
+    /* Old browsers */
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #8dc9c4));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #8dc9c4 100%);
+    /* Chrome10+,Safari5.1+ */
+    /* Opera 11.10+ */
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%, #8dc9c4 100%);
+    /* W3C */
+    //    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8dc9c4', GradientType=0);
+    /* IE6-9 */
+}
+
+#statuevid {
+    background-color: #8dc8c4;
+}
+
+#statuevid .container {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    min-width: 100%;
+}
+
+body.page-id-10216 #statue-masthead img,
+body.page-id-8835 #statue-masthead img {
+    margin-left: -80%;
+    margin-bottom: 22px;
+}
+
+#top.page-id-10216 #homepage-nascar .avia-button,
+#top.page-id-8835 #homepage-nascar .avia-button {
+    border-color: white;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+#top.page-id-10216 #homepage-nascar .avia-button:hover,
+#top.page-id-8835 #homepage-nascar .avia-button:hover {
+    border-color: #252525;
+}
+
+#homepage-nascar .avia-logo-element-container {
+    margin-bottom: 3rem;
+}
+
+#letsblowminds {
+    padding-bottom: 2rem;
+}
+
+#how-can-we-help-you .avia-button.avia-color-black,
+.avia-button.avia-color-black:hover {
+    background-color: black !important;
+    text-transform: uppercase;
+}
+
+#top.page-id-10216 .main_color a.avia-color-theme-color,
+#top.page-id-8835 .main_color a.avia-color-theme-color {
+    border-color: $dark-grey;
+    color: $dark-grey;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    -webkit-transition: .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+    transition: .3s cubic-bezier(0.455, 0.030, 0.515, 0.955);
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+#top.page-id-10216 .main_color a.avia-color-theme-color:hover,
+#top.page-id-8835 .main_color a.avia-color-theme-color:hover {
+    background-color: $dark-grey !important;
+    color: white;
+}
+
+#top.page-id-10216 .scroll-down-link,
+#top.page-id-8835 .scroll-down-link {
+    color: black;
+}

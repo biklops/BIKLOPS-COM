@@ -1,0 +1,80 @@
+/* /// FOOTER //// */
+
+#footer {
+    background: #feea77;
+    color: #262626 !important;
+    border-top: none !important;
+    font-size: .9em !important;
+}
+
+.footer_color .button:hover,
+.footer_color .ajax_controlls a:hover,
+.footer_color #submit:hover,
+.footer_color .big_button:hover,
+.footer_color .contentSlideControlls a:hover,
+.footer_color #submit:hover,
+.footer_color input[type="submit"]:hover {
+    background-color: #262626;
+    border-color: #373737;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.footer_color a,
+.footer_color .widget_first,
+.footer_color strong,
+.footer_color b,
+.footer_color b a,
+.footer_color strong a,
+.footer_color #js_sort_items a:hover,
+.footer_color #js_sort_items a.active_sort,
+.footer_color .av-sort-by-term a.active_sort,
+.footer_color .special_amp,
+.footer_color .taglist a.activeFilter,
+.footer_color #commentform .required,
+#top .footer_color .av-no-color.av-icon-style-border a.av-icon-char {
+    color: #e22e3d;
+    opacity: .85;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.footer_color a:hover,
+.footer_color h1 a:hover,
+.footer_color h2 a:hover,
+.footer_color h3 a:hover,
+.footer_color h4 a:hover,
+.footer_color h5 a:hover,
+.footer_color h6 a:hover,
+.footer_color .template-search a.news-content:hover,
+.footer_color .wp-playlist-item .wp-playlist-caption:hover {
+    color: #e22e3d;
+    opacity: 1;
+}
+
+.widgettitle {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.mc4wp_widget-3 h3 {
+    letter-spacing: 1px;
+}
+
+.mc4wp-form label {
+    display: none !important;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#dripfooter1 {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+#dripfooter1 p {
+    font-size: 1.2rem;
+    margin-top: 8%;
+}

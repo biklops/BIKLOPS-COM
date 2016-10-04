@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "    filter: progid": expected ";", was ": DXImageTransf..."
+        on line 665 of /Volumes/Giganto/Dropbox/Sites/www.biklops.dev/wp-content/themes/enfold-child/Sass/partials/style.scss
+
+660:     /* Chrome10+,Safari5.1+ *\/
+661:     /* Opera 11.10+ *\/
+662:     /* IE10+ *\/
+663:     background: linear-gradient(to bottom, #ffffff 0%, #8dc9c4 100%);
+664:     /* W3C *\/
+665:     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8dc9c4', GradientType=0);
+666:     /* IE6-9 *\/
+667: }
+668: 
+669: #statuevid {
+670:     background-color: #8dc8c4;
+
+Backtrace:
+/Volumes/Giganto/Dropbox/Sites/www.biklops.dev/wp-content/themes/enfold-child/Sass/partials/style.scss:665
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1115:in `expected'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1110:in `tok!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:775:in `block in try_declaration'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1155:in `call'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1155:in `rethrow'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:780:in `try_declaration'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:674:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:666:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:655:in `block'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:647:in `ruleset'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:673:in `block_child'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:666:in `block_contents'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:39:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    filter: progid\": expected \";\", was \": DXImageTransf...\"\A         on line 665 of /Volumes/Giganto/Dropbox/Sites/www.biklops.dev/wp-content/themes/enfold-child/Sass/partials/style.scss\A \A 660:     /* Chrome10+,Safari5.1+ */\A 661:     /* Opera 11.10+ */\A 662:     /* IE10+ */\A 663:     background: linear-gradient(to bottom, #ffffff 0%, #8dc9c4 100%);\A 664:     /* W3C */\A 665:     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8dc9c4', GradientType=0);\A 666:     /* IE6-9 */\A 667: }\A 668: \A 669: #statuevid {\A 670:     background-color: #8dc8c4;"; }

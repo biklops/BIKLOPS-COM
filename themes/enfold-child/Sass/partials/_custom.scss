@@ -1,0 +1,146 @@
+/*
+Theme Name: BIKLOPS.COM
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating will be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+
+/*  ////     B I K L O P S      ////  */
+
+
+/* General Custom CSS */
+
+.main_color a,
+.main_color .widget_first,
+.main_color strong,
+.main_color b,
+.main_color b a,
+.main_color strong a,
+.main_color #js_sort_items a:hover,
+.main_color #js_sort_items a.active_sort,
+.main_color .av-sort-by-term a.active_sort,
+.main_color .special_amp,
+.main_color .taglist a.activeFilter,
+.main_color #commentform .required,
+#top .main_color .av-no-color.av-icon-style-border a.av-icon-char {
+    color: inherit;
+}
+
+#footer h6 {
+    color: black;
+    font-size: 17px;
+    line-height: 1.1em;
+    margin-bottom: .5rem;
+}
+
+html {
+    background-color: transparent !important;
+}
+
+body {
+    color: #444;
+    font: 1.4rem "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#hideme {
+    display: none;
+}
+
+#altcolor a {
+    color: #397e78;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    opacity: .9;
+}
+
+#altcolor a:hover {
+    opacity: 1;
+    color: white;
+}
+
+ul {
+    margin-left: 0;
+}
+
+.flex_cell {
+    background-size: cover;
+}
+
+#header_main {
+    visibility: hidden;
+}
+
+.title_container .main-title a {
+    display: none;
+}
+
+.title_container .breadcrumb {
+    font-size: 12px;
+    font-weight: bold;
+    left: 50px !important;
+}
+
+.html_header_top.html_header_sticky #main {
+    padding-top: 0;
+}
+
+.av-masonry-image-container {
+    background-repeat: no-repeat !important;
+    /*    background-size: contain !important;*/
+}
+
+.av-masonry-image-container {
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    /*    background-size: contain !important;*/
+    text-align: center;
+}
+
+.html_header_top.html_header_sticky #main {
+    padding-top: 0;
+}
+
+.avia-fullwidth-portfolio .sort_width_container {
+    border-top-style: none;
+    border-top-width: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.main_color .av-masonry {
+    background-color: transparent;
+}
+
+.image-overlay {
+    display: none !important;
+}
+
+.avia_desktop.avia_transform3d .av-masonry-entry.av-masonry-item-loaded .av-inner-masonry {
+    -webkit-animation: 0s ease 0s normal none 1 running none;
+    animation: 0s ease 0s normal none 1 running none;
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.avia_desktop.avia_transform3d .av-masonry-image-container {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.avia_desktop .av-masonry-entry:hover .av-masonry-image-container {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+.avia-promocontent p {
+    font-size: 1.25rem;
+}
+
+.avia-button.avia-size-large {
+    font-size: 1.2rem;
+}
